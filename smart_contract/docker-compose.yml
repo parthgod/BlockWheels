@@ -1,0 +1,27 @@
+services:
+  ganache:
+    image: trufflesuite/ganache-cli
+    ports:
+      - "8545:8545"
+    volumes:
+      - ganache_data:/home/ganache/.ganache
+    networks:
+      - backend
+
+  truffle:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - ganache
+    volumes:
+      - .:/home/app
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+
+volumes:
+  ganache_data: {} # Define a volume for persistent data

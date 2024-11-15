@@ -13637,7 +13637,9 @@
   "ast": {
     "absolutePath": "project:/contracts/CarDealer.sol",
     "exportedSymbols": {
-      "CarDealer": [416]
+      "CarDealer": [
+        416
+      ]
     },
     "id": 417,
     "license": "MIT",
@@ -13645,7 +13647,12 @@
     "nodes": [
       {
         "id": 1,
-        "literals": ["solidity", "^", "0.8", ".0"],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
         "nodeType": "PragmaDirective",
         "src": "33:23:0"
       },
@@ -13656,7 +13663,9 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 416,
-        "linearizedBaseContracts": [416],
+        "linearizedBaseContracts": [
+          416
+        ],
         "name": "CarDealer",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -15600,7 +15609,10 @@
                       "id": 150,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4294967278, 4294967278],
+                      "overloadedDeclarations": [
+                        4294967278,
+                        4294967278
+                      ],
                       "referencedDeclaration": 4294967278,
                       "src": "2140:7:0",
                       "typeDescriptions": {
@@ -16264,7 +16276,9 @@
               "src": "2721:397:0",
               "statements": [
                 {
-                  "assignments": [213],
+                  "assignments": [
+                    213
+                  ],
                   "declarations": [
                     {
                       "constant": false,
@@ -16705,7 +16719,9 @@
                   },
                   "id": 255,
                   "initializationExpression": {
-                    "assignments": [219],
+                    "assignments": [
+                      219
+                    ],
                     "declarations": [
                       {
                         "constant": false,
@@ -17142,7 +17158,9 @@
               "src": "3508:550:0",
               "statements": [
                 {
-                  "assignments": [294],
+                  "assignments": [
+                    294
+                  ],
                   "declarations": [
                     {
                       "constant": false,
@@ -17267,7 +17285,9 @@
                   "src": "3519:48:0"
                 },
                 {
-                  "assignments": [303],
+                  "assignments": [
+                    303
+                  ],
                   "declarations": [
                     {
                       "constant": false,
@@ -17671,7 +17691,9 @@
                   },
                   "id": 342,
                   "initializationExpression": {
-                    "assignments": [307],
+                    "assignments": [
+                      307
+                    ],
                     "declarations": [
                       {
                         "constant": false,
@@ -17903,7 +17925,9 @@
               "src": "4120:188:0",
               "statements": [
                 {
-                  "assignments": [358],
+                  "assignments": [
+                    358
+                  ],
                   "declarations": [
                     {
                       "constant": false,
@@ -18206,7 +18230,9 @@
                   },
                   "id": 387,
                   "initializationExpression": {
-                    "assignments": [367],
+                    "assignments": [
+                      367
+                    ],
                     "declarations": [
                       {
                         "constant": false,
@@ -18524,7 +18550,10 @@
                       "id": 399,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4294967278, 4294967278],
+                      "overloadedDeclarations": [
+                        4294967278,
+                        4294967278
+                      ],
                       "referencedDeclaration": 4294967278,
                       "src": "4390:7:0",
                       "typeDescriptions": {
@@ -18711,10 +18740,34 @@
       "links": {},
       "address": "0xeB9757363e80C47630FE3f8d32D819Aa8b509946",
       "transactionHash": "0x1aa1c95cec45ba94e1511983f075abfda1cf8c4e6360f998975f55a37e10a1df"
+    },
+    "1731673318002": {
+      "events": {},
+      "links": {},
+      "address": "0x7AB2957134517EAa61430D0534254922960A777f",
+      "transactionHash": "0xf6b2d675266abf1668343c9cb1a43d248ad8621712cc328ae0e269e52b848dde"
+    },
+    "1731673863647": {
+      "events": {},
+      "links": {},
+      "address": "0x47a79244ABa8735bD4CbBda45621a408E9733a30",
+      "transactionHash": "0xfed6c2373b5f24b7d084344b808658d0832cc9e18a65df8655a1307b5cab4830"
+    },
+    "1731674789816": {
+      "events": {},
+      "links": {},
+      "address": "0x8ab15c7ffB4A636A01E55F17f012D3CD0Fa28D60",
+      "transactionHash": "0x630ec7f942325a2609bc6d629b4224ee83e7d9b0899f4afad685b810883bc0e5"
+    },
+    "1731675461994": {
+      "events": {},
+      "links": {},
+      "address": "0x315Ad2F8f715dF37525b5729b29D47729a40C6bA",
+      "transactionHash": "0x66b8024bfa9a960b5d5f84a644287de13d2bb89bfcbcb7e1be6d81da9716e410"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-11-09T06:14:30.312Z",
+  "updatedAt": "2024-11-15T12:58:43.612Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
